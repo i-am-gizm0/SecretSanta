@@ -1,0 +1,21 @@
+{
+  "name": "secretsanta",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "ts-node index"
+  },
+  "keywords": [],
+  "author": "Sam Ollari",
+  "repository": "github:i-am-gizm0/secretsanta",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.1",
+    "ts-node": "^10.3.0",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.7"
+  }
+}

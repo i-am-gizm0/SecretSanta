@@ -1,0 +1,23 @@
+{
+    "people": [
+        { "name": "Person 1", "emailName": "Uncle Person", "email": "johnsmith@example.com"},
+        { "name": "Person 2", "emailName": "Grandma", "email": "janedoe@example.com", "cc": ["jdoe@test.com"]}
+    ],
+    "preventMatches": [
+        [ "Person 1", "Person 2", "Person 3" ],
+        [ "Person 1", "Person 4"],
+        [ "Person 5", "Person 6"]
+    ],
+    "sendgrid": {
+        "apiKey": "<Your SG API Key>",
+        "from": {
+            "name": "From Person",
+            "email": "<From Address>"
+        },
+        "replyTo": {
+            "name": "Me!",
+            "email": "<Reply to Address>"
+        },
+        "subject": "Secret Santa!"
+    }
+}
